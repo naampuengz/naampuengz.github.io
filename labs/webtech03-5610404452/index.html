@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Personal Information</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="myScript.js"></script>
+  <html lang="en-us">
+  <meta charset="UTF-8">
+  <meta name="description" content="fill a personal data">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Boonyaporn Narkjumrussri">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body onload="checkCookie()">
+  <div class="myhead" >
+    <h1 class="blur">Personal Information &hearts;</h1>
+    <h1>PERSONAL INFORMATION &hearts;</h1>
+    <p><b> [ please fill in and choose your information ] </b></p>
+  </div>
+  <hr>
+  <br>
+  <form name="dataform" id="dataform">
+    <div class="myform">
+      <strong>Firstname </strong> <input type="text" name="firstName"><br>
+      <strong>Lastname</strong> <input type="text" name="lastName"><br>
+      <br>
+      <strong>Address</strong><br>
+
+      <center>
+
+      <table class="address">
+        <tr>
+          <td>
+            <ul><strong><i>House number</i></strong> <input type="text" class="changemargin" name="houseNumber"><br></ul>
+          </td>
+          <td>
+            <ul><strong><i>Street</i></strong> <input type="text" name="street"><br></ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <ul><strong><i>City</i></strong> <input type="text" name="city"><br></ul>
+          </td>
+          <td>
+            <ul><strong><i>Province</i></strong> <input type="text" name="province"><br></ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <ul><strong><i>Zipcode</i></strong> <input type="text" name="zipcode"><br></ul>
+          </td>
+        </tr>
+      </table>
+      </center>
+
+      <strong>Phone number</strong> <input type="text" name="phoneNum" placeholder="+662‐xxx‐xxx"><br>
+      <strong>Cell phone number</strong> <input type="text" name="cellPhoneNum" placeholder="+66xx‐xxx‐xxx"><br>
+      <strong>Birthday</strong> <input type="date" name="birthday"><br>
+      <strong>Citizenship number</strong> <input type="text" name="citizenNum" ><br>
+      <strong>Zodiac Sign</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- <u id="zodiacSign">None</u><br> -->
+      <input type="text" name="zodiacSign" id="zodiacSign" disabled><br>
+      <table class="imgbutton">
+        <tr>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Aries')"><img src="img/aries.png" alt="Aries" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Taurus')"><img src="img/taurus.png" alt="Taurus" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Gemini')"><img src="img/gemini.png" alt="Gemini" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Cancer')"><img src="img/cancer.png" alt="Cancer" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Leo')"><img src="img/leo.png" alt="Leo" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Virgo')"><img src="img/virgo.png" alt="Virgo" height="100"></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Libra')"><img src="img/libra.png" alt="Libra" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Scorpio')"><img src="img/scorpio.png" alt="Scorpio" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Sagittarius')"><img src="img/sagittarius.png" alt="Sagittarius" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Capricorn')"><img src="img/capricorn.png" alt="Capricorn" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Acquarius')"><img src="img/acquarius.png" alt="Acquarius" height="100"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodiacSign('Pisces')"><img src="img/pisces.png" alt="Pisces" height="100"></button>
+          </td>
+        </tr>
+      </table>
+
+      <strong>Zodiac Year</strong> &nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- <u id="zodaicYear">None</u><br> -->
+      <input type="text" name="zodaicYear" id="zodaicYear" disabled><br>
+      <table class="imgbutton">
+        <tr>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Rat')"><img src="img/rat.png" alt="Rat"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Ox')"><img src="img/ox.png" alt="Ox"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Tiger')"><img src="img/tiger.png" alt="Tiger"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Hare')"><img src="img/hare.png" alt="Hare"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Dragon')"><img src="img/dragon.png" alt="Dragon"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Snake')"><img src="img/snake.png" alt="Snake"></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Horse')"><img src="img/horse.png" alt="Horse"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Sheep')"><img src="img/sheep.png" alt="Sheep"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Monkey')"><img src="img/monkey.png" alt="Monkey"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Rooster')"><img src="img/rooster.png" alt="Rooster"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Dog')"><img src="img/dog.png" alt="Dog"></button>
+          </td>
+          <td>
+            <button class="img" type="button" onclick="setZodaicYear('Pig')"><img src="img/pig.png" alt="Pig"></button>
+          </td>
+        </tr>
+      </table>
+      <strong>Birthday of Week</strong>
+        <select class="modifySelect" name="dayName" id='selectLetter'>
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+          <option value="thursday">Thursday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
+          <option value="sunday">Sunday</option>
+        </select><br>
+    </div>
+    <br>
+    <div>
+    <button type="reset" class="reset" onclick="clearAll()">Cancel</button>
+    <button class="submit" onclick="pressSubmit()">Submit</button>
+    <button class="save" onclick="pressSave()">Save</button>
+    </div>
+  </form>
+  <footer>
+    <br><br><br><br><br>
+    <hr>
+    <i>
+    Create by :
+    Boonyaporn Narkjumrussri 5610404452
+    </i>
+    <br><br><br>
+  </footer>
+</body>
+</html>

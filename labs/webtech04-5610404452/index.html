@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>คำขวัญประจำจังหวัด-ประเทศไทย</title>
+
+  <meta charset="UTF-8">
+  <meta name="author" content="Boonyaporn Narkjumrussri">
+  <meta name="description" content="fill a personal data and show">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="th">
+  <meta http-equiv="content-Type" content="text/html; charset=window-874">
+  <meta http-equiv="content-Type" content="text/html; charset=tis-620">
+
+  <link rel="stylesheet" href="styleIndex.css">
+</head>
+<body>
+  <header>
+    <center>
+      <h1> # คำขวัญประจำจังหวัด # </h1>
+      <h2>ประเทศไทย</h2>
+    </center>
+  </header>
+
+  <nav>
+    <h2 id="welcome"></h2>
+  </nav>
+
+
+
+  <div class="rightFloat">
+    <form id="idform">
+      <u><h3>กรุณากรอกข้อมูล</h3></u>
+      <strong>ชื่อจริง</strong><input type="text" name="firstname" /><br />
+      <br />
+      <strong>นามสกุล</strong> <input type="text" name="lastname" /><br />
+      <br />
+      <strong>วันเกิด</strong> <input type="date" name="birthday"  /><br />
+      <br />
+      <strong>เพศ</strong> <input type="text" name="gender" id="idgender" value="" disabled /><br />
+      <table>
+        <tr>
+          <td>
+            <input type="button" id="male" class="gender" value="ชาย" />
+          </td>
+          <td>
+            <input type="button" id="female" class="gender" value="หญิง"/>
+          </td>
+        </tr>
+      </table>
+      <br />
+      <strong>จังหวัด</strong>
+      <select class="selectCss" name="province" id='provinceSelect'>
+        <option value="Bangkok">กรุงเทพมหานคร</option>
+        <option value="ChiangRai">เชียงราย</option>
+        <option value="ChiangMai">เชียงใหม่</option>
+        <option value="Nan">น่าน</option>
+        <option value="Phayao">พะเยา</option>
+        <option value="Phrae">แพร่</option>
+        <option value="MaeHongSon">แม่ฮ่องสอน</option>
+        <option value="Lampang">ลำปาง</option>
+        <option value="Lamphun">ลำพูน</option>
+        <option value="Uttaradit">อุตรดิตถ์</option>
+        <option value="Kalasin">กาฬสินธุ์ </option>
+        <option value="KhonKaen">ขอนแก่น</option>
+        <option value="Chaiyaphum">ชัยภูมิ</option>
+        <option value="NakhonPhanom">นครพนม</option>
+        <option value="NakhonRatchasima">นครราชสีมา</option>
+        <option value="BuengKan">บึงกาฬ</option>
+        <option value="BuriRam">บุรีรัมย์</option>
+        <option value="MahaSarakham">มหาสารคาม</option>
+        <option value="Mukdahan">มุกดาหาร</option>
+        <option value="Yasothon">ยโสธร</option>
+        <option value="RoiEt">ร้อยเอ็ด</option>
+        <option value="Loei">เลย</option>
+        <option value="SakonNakhon">สกลนคร</option>
+        <option value="Surin">สุรินทร์</option>
+        <option value="SiSaKet">ศรีสะเกษ</option>
+        <option value="NongKhai">หนองคาย</option>
+        <option value="NongBuaLamPhu">หนองบัวลำภู</option>
+        <option value="UdonThani">อุดรธานี</option>
+        <option value="UbonRatchathani">อุบลราชธานี</option>
+        <option value="AmnatCharoen">อำนาจเจริญ</option>
+        <option value="KamphaengPhet">กำแพงเพชร</option>
+        <option value="ChaiNat">ชัยนาท</option>
+        <option value="NakhonNayok">นครนายก</option>
+        <option value="NakhonPathom">นครปฐม</option>
+        <option value="NakhonSawan">นครสวรรค์</option>
+        <option value="Nonthaburi">นนทบุรี</option>
+        <option value="PathumThani">ปทุมธานี</option>
+        <option value="Ayutthaya">พระนครศรีอยุธยา</option>
+        <option value="Phichit">พิจิตร</option>
+        <option value="Phitsanulok">พิษณุโลก </option>
+        <option value="Phetchabun">เพชรบูรณ์</option>
+        <option value="LopBuri">ลพบุรี</option>
+        <option value="SamutPrakan">สมุทรปราการ</option>
+        <option value="SamutSongkhram">สมุทรสงคราม</option>
+        <option value="SamutSakhon">สมุทรสาคร</option>
+        <option value="SingBuri">สิงห์บุรี</option>
+        <option value="Sukhothai">สุโขทัย</option>
+        <option value="SuphanBuri">สุพรรณบุรี</option>
+        <option value="Saraburi">สระบุรี</option>
+        <option value="AngThong">อ่างทอง</option>
+        <option value="UthaiThani">อุทัยธานี</option>
+        <option value="Chanthaburi">จันทบุรี</option>
+        <option value="Chachoengsao">ฉะเชิงเทรา</option>
+        <option value="ChonBuri">ชลบุรี</option>
+        <option value="Trat">ตราด</option>
+        <option value="PrachinBuri">ปราจีนบุรี</option>
+        <option value="Rayong">ระยอง</option>
+        <option value="SaKaeo">สระแก้ว</option>
+        <option value="Kanchanaburi">กาญจนบุรี</option>
+        <option value="Tak">ตาก</option>
+        <option value="PrachuapKhiriKhan">ประจวบคีรีขันธ์</option>
+        <option value="Phetchaburi">เพชรบุรี</option>
+        <option value="Ratchaburi">ราชบุรี</option>
+        <option value="Krabi">กระบี่</option>
+        <option value="Chumphon">ชุมพร</option>
+        <option value="Trang">ตรัง</option>
+        <option value="NakhonSiThammarat">นครศรีธรรมราช</option>
+        <option value="Narathiwat">นราธิวาส</option>
+        <option value="Pattani">ปัตตานี</option>
+        <option value="Phangnga">พังงา</option>
+        <option value="Phatthalung">พัทลุง</option>
+        <option value="Phuket">ภูเก็ต</option>
+        <option value="Ranong">ระนอง</option>
+        <option value="Satun">สตูล</option>
+        <option value="Songkhla">สงขลา</option>
+        <option value="SuratThani">สุราษฎร์ธานี</option>
+        <option value="Yala">ยะลา</option>
+      </select><br>
+      <br />
+      <table>
+        <tr>
+          <td>
+            <input type="reset" value="Cancel" class="butt" />
+          </td>
+          <td>
+            <input type="button" value="Submit" id="idsubmit" class="butt" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+  </div>
+
+
+  <div class="show" id="show">
+    <center>
+      <h1 id="nameProvince">คำขวัญประจำจังหวัด</h1>
+      <img src="img/ele_icon.png" id="imgProvince" height="300px">
+      <strong><p id="motto">
+        เป็นคำขวัญที่แต่ละจังหวัดในประเทศไทยแต่งขึ้น เพื่อบ่งบอกถึงเอกลักษณ์ ความภาคภูมิใจ <br>
+        และความโดดเด่นที่มีอยู่ในจังหวัดนั้นๆ มักเป็นคำคล้องจองสั้นๆ เพื่อให้จดจำง่าย<br>
+         นอกจากคำขวัญประจำจังหวัดแล้ว ปัจจุบันยังมีการแต่งคำขวัญประจำท้องถิ่นในส่วนย่อยลงไปอีก <br>
+        เช่น คำขวัญประจำอำเภอ คำขวัญประจำเขต (ในกรุงเทพมหานคร) เป็นต้น <br>
+      </p></strong>
+    </center>
+  </div>
+
+  <footer>
+    <hr>
+    <i>Created by : <br>
+    Boonyaporn Narkjumrussri 5610404452</i>
+  </footer>
+
+  <!-- online -->
+  <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+  <!-- local -->
+  <script>window.jQuery || document.write('<script src="js/jquery-3.1.1.min.js"><\/script>');</script>
+  <script src="js/script.js"></script>
+
+</body>
+</html>

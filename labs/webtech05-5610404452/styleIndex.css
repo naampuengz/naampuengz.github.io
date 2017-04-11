@@ -1,0 +1,148 @@
+@font-face {
+  font-family: Bangnampueng;
+  src: url(font/Bangnampueng.ttf);
+}
+
+@font-face {
+  font-family: joyful;
+  src: url(font/DRjoyful.ttf);
+}
+
+
+html{
+  margin: 0px;
+  padding: 0px;
+  font-family: Bangnampueng;
+  font-size: 25px;
+  background: url(img/bg5.jpg);
+}
+
+p{
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+header{
+  margin: 0px;
+  margin-top: 0px;
+  padding: 60px;
+    /*margin-top: 50px;*/
+  font-size: 150%;
+  line-height: 4px;
+  letter-spacing: 4px;
+  text-shadow: 8px 8px 3px #b4b0b0;
+  /*background: rgba(255, 255, 255, 0.66);*/
+  background: url(img/thailand-header2.png);
+
+}
+
+.rightFloat{
+  font-size: 120%;
+  float: left;
+  background: rgba(255, 255, 255, 0.66);
+  margin: 20px;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 0px;
+}
+
+.show{
+  /*background: rgba(255, 255, 255, 0.66);*/
+  float: none;
+  overflow: auto;
+  font-size: 150%;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*background: rgba(255, 255, 255, 0.76);*/
+}
+
+input{
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 25px;
+  font-family: inherit;;
+  font-weight: bold;
+}
+
+#male{
+  background: url(img/male.png);
+  background-size: 45px;
+  background-position: 25px;
+  background-repeat: no-repeat;
+  border-style: hidden;
+  margin: 4px;
+  width: 80px;
+  height: 70px;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding-left: 50px;
+}
+
+#female{
+  background: url(img/female.png);
+  background-size: 45px;
+  background-position: 25px;
+  background-repeat: no-repeat;
+  border-style: hidden;
+  margin: 4px;
+  width: 80px;
+  height: 70px;
+  font-size: 30px;
+  font-family: inherit;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.butt{
+  background: rgb(255, 255, 255);
+  font-size: 30px;
+  font-family: inherit;;
+  font-weight: bold;
+  width: 100%;
+  border: 4px;
+  border-style: solid;
+  border-color: rgba(87, 57, 40, 0.78);
+  /*border-color: rgba(129, 3, 51, 1);*/
+  border-radius: 10px;
+
+}
+
+select{
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: inherit;;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  columns: 2;
+  text-align: center;
+}
+
+footer{
+  display: none;
+}
+
+#welcome{
+  background: white;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  font-family: inherit;
+  letter-spacing: 8px;
+}

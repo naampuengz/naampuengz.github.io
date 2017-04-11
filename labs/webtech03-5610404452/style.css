@@ -1,0 +1,157 @@
+@font-face {
+	font-family: MadrasLight;
+	src: url(fonts/MadrasExtraLight.otf);
+}
+
+@font-face {
+	font-family: MadrasBold;
+	src: url(fonts/MadrasExtraBoldItalic.otf);
+}
+
+@font-face {
+	font-family: Aldine;
+	src: url(fonts/Aldine.ttf);
+}
+
+@font-face {
+	font-family: Boulevard;
+	src: url(fonts/BoulevardSaintDenis.ttf);
+}
+
+@font-face {
+	font-family: DKBurobu;
+	src: url(fonts/DKBurobu.otf);
+}
+
+@font-face {
+	font-family: Cupid;
+	src: url(fonts/KLCupid.ttf);
+}
+
+
+html{
+  margin: 0;
+	padding: 0;
+  font-family: MadrasLight;
+  letter-spacing: 0.5px;
+  background: url(img/blue.jpg);
+  font-size: 25px;
+}
+
+.myhead{
+  line-height: 0;
+  padding-left: 20px;
+  text-align: right;
+  font-size: 40px;
+  font-family: Cupid;
+}
+
+.blur{
+  color: rgba(255, 255, 255, 1);
+  text-shadow: -1px 0 rgb(207, 204, 202), 0 1px rgb(207, 204, 202), 1px 0 rgb(207, 204, 202), 0 -1px rgb(207, 204, 202);
+  padding-bottom: 0px
+}
+
+h1{
+  font-family: DKBurobu,Boulevard,Aldine;
+  line-height: 0;
+  font-size: 90px;
+}
+
+.myform{
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-style: hidden;
+  background: rgba(255, 255, 255, 0.77);
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+select{
+  border: 2px solid gray;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0);
+  font-size: 25px;
+  font-family: MadrasLight;
+}
+
+input[type=text],input[type=date] {
+  font-family: MadrasLight;
+  border: 2px solid gray;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0);
+  font-size: 30px;
+}
+
+button{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: rgb(168, 219, 245);
+  border: 5px;
+  border-style: solid;
+  border-color: white;
+  font-family: MadrasBold;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  width: 200px;
+}
+
+strong{
+  font-family: MadrasBold;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+ul{
+  line-height: 10px;
+}
+
+table.address{
+  columns: 2;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 5px;
+}
+
+table.imgbutton{
+  columns: 6;
+  width: 100%;
+}
+
+.reset{
+  float: left;
+  margin-left: 200px;
+}
+
+.save{
+  float: right;
+  margin-right: 20px;
+}
+
+.submit{
+  float:right;
+  margin-right: 200px;
+}
+
+button.img{
+  background: rgba(255, 255, 255, 0);
+  border-style: hidden;
+}
+
+
+้
